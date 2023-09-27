@@ -1,0 +1,21 @@
+:root {
+    --red: rgb(255, 186, 186);
+    --blue: rgb(191, 219, 247);
+}
+.bg-red{
+    background-color: var(--red);
+}
+.bg-blue{
+    background-color: var(--blue);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+main{
+    height: auto;
+    width: 100%;
+}
+.row-height{
+height: 350px;
+}
